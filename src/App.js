@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   {path:'/nulla', element:<Nulla/>},
   {path:'/malintenzionato', element:<Malintenzionato/>},
   {path:'/fuga', element:<Fuga/>},
-  {path:'/attachi', element:<Attacchi/>},
+  {path:'/attacchi', element:<Attacchi/>},
   {path:'/vittoria', element:<Vittoria/>},
   {path:'/morte', element:<Morte/>},
 ]);
