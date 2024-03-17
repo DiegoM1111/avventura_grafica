@@ -1,17 +1,17 @@
 import Layout from "../components/Layout";
 
-function Fuga(){
+function Vittoria(){
     return <>
         <Layout 
-            pageTitle = "SCAMPATO PERICOLO!"
+            pageTitle = "VITTORIA!"
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."
             rightBotton = {true}
-            bottonTitle2 = "INDIETRO"
-            pagePath2 = "nulla" //torna alla home
+            bottonTitle2 = "RICOMINCIA"
+            pagePath2 = "" //torna alla home
         ></Layout>
     </>;
 }
-export default Fuga;
+export default Vittoria;
     

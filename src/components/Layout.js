@@ -42,6 +42,7 @@ function Layout({pageTitle, rightBotton, bottonTitle1, pagePath1, leftBotton, bo
                     <div className="col-1"></div>
 
                     <div className="col-3">
+                        {/* se leftBotton è true allora esegue ciò che c'è a destra del && */}
                         {leftBotton && <Bottone bottonName={bottonTitle1} path={pagePath1}></Bottone>}
                     </div>
 
