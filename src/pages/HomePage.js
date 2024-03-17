@@ -4,7 +4,7 @@ function HomePage() {
     return (
         <Layout 
             pageTitle = "DOVE ANDARE ?"
-            leftBotton = {true}
+            leftBotton = {true} // c'è il bottone
             bottonTitle1 = "SINISTRA"
             pagePath1 = "nulla"
             rightBotton = {true}
