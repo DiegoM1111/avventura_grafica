@@ -1,11 +1,15 @@
 import '../assets/bottone.css';
+import { Link } from 'react-router-dom';
 
-function Bottone({title}) {
-    const bottonStyle = {float: `${title}`};
+function Bottone({bottonName, path}) {
+    const pagePath = `/${path}`;
 
     return (
-        <div className='bottone' style={bottonStyle}>
-            <h1>{title}</h1>
+        // <div className='bottone'>
+        <div>
+            <Link to={pagePath}>
+                <botton className='bottone'>{bottonName}</botton>
+            </Link>
         </div>
     );
   }
