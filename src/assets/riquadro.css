@@ -1,0 +1,10 @@
+.rettangolo{
+    height: 80px;
+    color: white;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* border-color: black 2px; */
+}

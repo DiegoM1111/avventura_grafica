@@ -1,0 +1,13 @@
+.bottone{
+    width: 200px;
+    height: 80px;
+    padding: 5px;
+    color: white;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border-color: black 2px; */
+    border-radius: 15px;
+}
