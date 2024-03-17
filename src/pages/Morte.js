@@ -4,6 +4,7 @@ function Morte(){
     return <>
         <Layout 
             pageTitle = "SCONFITTA!"
+            statoCavaliere= "dead"
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."

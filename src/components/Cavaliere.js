@@ -4,36 +4,35 @@ import fight from '../materiale/fight.gif';
 import dead from '../materiale/dead.gif';
 import run from '../materiale/run.gif';
 
-function Cavaliere(posizione){
-    let stato; 
-
-    if(posizione === "SCAMPATO PERICOLO!"){
-        stato = run;
-    }else if(posizione === "SCONFITTA!"){
-        stato = dead;
-    }else if(posizione === "ATTACHI!"){
-        stato = fight;
-    }else{
-        stato = idle;
-    }
-
-    // switch (posizione) {
-    //     case "SCAMPATO PERICOLO!":
-    //       stato = run;
-    //       break;
-    //     case "SCONFITTA!":
-    //       stato = dead;
-    //       break;
-    //     case "ATTACHI!":
-    //       stato = fight;
-    //       break;
-    //     default:
-    //         stato = idle;
-    //         break;
+function Cavaliere(stato){
+    // let tipo = run;
+    // if(stato === 'idle'){
+    //     tipo = idle;
+    // }else if(stato === 'fight'){
+    //     tipo = fight;
+    // }else if(stato === 'dead'){
+    //     tipo = dead;
+    // }else if(stato === 'run'){
+    //     tipo = run;
     // }
+    let tipo;
+
+    {(() => {
+        if (stato === 'idle') {
+            tipo = idle;
+        } else if (stato === 'fight') {
+            tipo = fight;
+        } else if (stato === 'dead'){
+            tipo = dead;
+        }else if (stato === 'run'){
+            tipo = run;
+        }else{
+            tipo = 'errore';
+        }
+      })()}
 
     return (<>
-        <img className='pg' src={stato} alt={stato} />
+        <img className='pg' src={tipo} alt={tipo} />
     </>
     );
 }
