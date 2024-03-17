@@ -7,9 +7,9 @@ function Fuga(){
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."
-            rightBotton = {false}
-            bottonTitle2 = "..."
-            pagePath2 = "..." //torna alla home
+            rightBotton = {true}
+            bottonTitle2 = "INDIETRO"
+            pagePath2 = "" //torna alla home
         ></Layout>
     </>;
 }
