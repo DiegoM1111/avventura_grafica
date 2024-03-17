@@ -1,11 +1,4 @@
-.idle{
-    background-image: url('../materiale/idle.gif');
-}
-
-.fight{
-    background-image: url('../materiale/fight.gif');
-}
-
-.dead{
-    background-image: url('../materiale/dead.gif');
+/* posizioni */
+.centro{
+    margin: 0 auto;
 }

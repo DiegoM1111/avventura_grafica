@@ -1,5 +1,6 @@
-import Riquadro from "../components/Riquadro";
-import Bottone from '../components/Bottone';
+import Riquadro from "./Riquadro";
+import Bottone from './Bottone';
+import Cavaliere from "./Cavaliere";
 import background from '../materiale/image3.png';
 
 function Layout({pageTitle, rightBotton, bottonTitle1, pagePath1, leftBotton, bottonTitle2, pagePath2}) {
@@ -33,7 +34,9 @@ function Layout({pageTitle, rightBotton, bottonTitle1, pagePath1, leftBotton, bo
                 <div className="row">
                     <div className="col-2"></div>
 
-                    <div className="col-8" style={sfondo}></div>
+                    <div className="col-8" style={sfondo}>
+                        <Cavaliere posizione = {pageTitle}></Cavaliere>
+                    </div>
 
                     <div className="col-2"></div>
                 </div>

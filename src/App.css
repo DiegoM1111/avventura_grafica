@@ -9,11 +9,18 @@
 h1{
   background-color: lightblue;
   text-decoration: none;
+  text-align: center;
 }
 
 #img{
   /* width: 700px; */
   margin: 0 auto;
+}
+
+.pg{
+  height: 200px;
+  padding: 0;
+  margin: 0;
 }
 
 .App {
