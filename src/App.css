@@ -27,13 +27,10 @@ h1{
   height: 300px;
 }
 
-.sfondo{
-  background-image: url('./materiale/image3.png');
-}
-
 .container{
   width: 100%;
   margin: 0 auto;
+  /* background-image: url('./materiale/image3.png'); */
 }
 
 /* .centro{
