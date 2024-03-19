@@ -34,30 +34,10 @@ function Layout({pageTitle, azioneSchermo, rightBotton, bottonTitle1, pagePath1,
                     {/* dove avvengono le scene */}
                     <div className="row">
                         <div className="col-2"></div>
-                    </div>
-
-                {/* dove avvengono le scene */}
-                <div className="row">
-                    <div className="col-2"></div>
-
-                        <div className="col-2 screen">
-                            
-                        </div>
-                        <div className="col-4 screen">
-                            {azioneSchermo}
-                        </div>
-                        
-                        <div className="col-2 screen">
-                            
-                        </div>
-                        <div className="col-2 screen">
-                            
-                        </div>
 
                         <div className="col-8 screen">
                             {azioneSchermo}
                         </div>
-
 
                         <div className="col-2"></div>
                     </div>

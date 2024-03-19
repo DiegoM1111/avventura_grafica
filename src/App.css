@@ -19,17 +19,18 @@ h1{
   /* width: 700px; */
   margin: 0 auto;
 }
+
 .pg{
   height: 200px;
   margin: 0 auto;
   display: flex;
-  margin-top: 200px;
-
+  
 }
 
 .screen{
   height: 400px;
 }
+
 .App {
   text-align: center;
 }
