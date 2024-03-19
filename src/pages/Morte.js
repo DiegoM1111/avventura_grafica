@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 
+
 function Morte(){
     return <>
         <Layout 
