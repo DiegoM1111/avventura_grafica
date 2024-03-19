@@ -4,6 +4,7 @@ function Vittoria(){
     return <>
         <Layout 
             pageTitle = "VITTORIA!"
+            statoCavaliere= "idle"
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."
