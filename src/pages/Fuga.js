@@ -4,6 +4,7 @@ function Fuga(){
     return <>
         <Layout 
             pageTitle = "SCAMPATO PERICOLO!"
+            statoCavaliere= "run"
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."

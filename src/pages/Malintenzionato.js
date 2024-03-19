@@ -4,6 +4,7 @@ function Malintenzionato(){
     return<>
         <Layout 
             pageTitle = "UN MALINTENZIONATO! CHE FARE ?"
+            statoCavaliere= "idle"
             leftBotton = {true}
             bottonTitle1 = "COMBATTI"
             pagePath1 = "attacchi"

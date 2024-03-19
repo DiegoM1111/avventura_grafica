@@ -4,6 +4,7 @@ function Nulla(){
     return <>
         <Layout 
             pageTitle = "NON C'E' NULLA QUI"
+            statoCavaliere= "idle"
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."
