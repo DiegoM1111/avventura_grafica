@@ -1,19 +1,34 @@
 *{
-  background-color: black;
   color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
+
 h1{
   background-color: lightblue;
   text-decoration: none;
+  text-align: center;
 }
 
 #img{
   /* width: 700px; */
   margin: 0 auto;
+}
+
+.pg{
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+.screen{
+  height: 400px;
 }
 
 .App {
@@ -28,6 +43,11 @@ h1{
   width: 100%;
   margin: 0 auto;
   /* background-image: url('./materiale/image3.png'); */
+}
+
+.gameContainer{
+  width: 75%;
+  margin: 0 auto;
 }
 
 /* .centro{
