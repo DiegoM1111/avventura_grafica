@@ -29,9 +29,25 @@ function Layout({pageTitle, rightBotton, bottonTitle1, pagePath1, leftBotton, bo
                     <div className="col-4"></div>
                 </div>
 
+<<<<<<< Updated upstream
                 {/* dove avvengono le scene */}
                 <div className="row">
                     <div className="col-2"></div>
+=======
+                        <div className="col-2 screen">
+                            
+                        </div>
+                        <div className="col-4 screen">
+                            {azioneSchermo}
+                        </div>
+                        
+                        <div className="col-2 screen">
+                            
+                        </div>
+                        <div className="col-2 screen">
+                            
+                        </div>
+>>>>>>> Stashed changes
 
                     <div className="col-8" style={sfondo}></div>
 
