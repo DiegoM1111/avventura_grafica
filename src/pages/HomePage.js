@@ -5,7 +5,7 @@ function Azione(){
     return (
         <>
             {/* cavaliere */}
-            <img className='pg' src={idle} alt="idle"></img>
+            <img className='pg centroPg' src={idle} alt="idle"></img>
         </>
     );
 }

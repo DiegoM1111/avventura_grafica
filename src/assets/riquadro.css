@@ -1,10 +1,13 @@
 .rettangolo{
-    height: 80px;
+    position: absolute;
     color: white;
     background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    /* border-color: black 2px; */
+    width: 30%;
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-left: 35%;
 }

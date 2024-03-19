@@ -8,7 +8,7 @@ function Bottone({bottonName, path}) {
         // <div className='bottone'>
         <div>
             <Link to={pagePath}>
-                <botton className='bottone'>{bottonName}</botton>
+                <botton className='bottone'><h1>{bottonName}</h1></botton>
             </Link>
         </div>
     );

@@ -1,10 +1,23 @@
 import Layout from "../components/Layout";
+import fight from '../materiale/fight.gif';
+import enemyDead from '../materiale/enemy_dead.gif';
+
+function Azione(){
+    return (
+        <>
+            {/* cavaliere */}
+            <img className='pg pgSinistra' src={fight} alt="fight"></img>
+
+            <img className="pg enemy enemyLose" src={enemyDead} alt="enemy_dead"></img>
+        </>
+    );
+}
 
 function Vittoria(){
     return <>
         <Layout 
             pageTitle = "VITTORIA!"
-            statoCavaliere= "idle"
+            azioneSchermo = {<Azione/>}
             leftBotton = {false}
             bottonTitle1 = "..."
             pagePath1 = "..."
