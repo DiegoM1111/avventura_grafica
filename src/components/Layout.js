@@ -20,7 +20,6 @@ function Layout({pageTitle, azioneSchermo, rightBotton, bottonTitle1, pagePath1,
 
             <div className="container">
                 {/* contenitore del gioco */}
-                <div className="gameContainer" style={sfondo}>
                     <div className="row">
                         <div className="col-4"></div>
                         
@@ -31,6 +30,7 @@ function Layout({pageTitle, azioneSchermo, rightBotton, bottonTitle1, pagePath1,
                         <div className="col-4"></div>
                     </div>
 
+                <div className="gameContainer" style={sfondo}>
                     {/* dove avvengono le scene */}
                     <div className="row">
                         <div className="col-2"></div>
@@ -41,7 +41,8 @@ function Layout({pageTitle, azioneSchermo, rightBotton, bottonTitle1, pagePath1,
 
                         <div className="col-2"></div>
                     </div>
-
+                </div>
+                
                     <div className="row">
                         <div className="col-4">
                             {/* se leftBotton è true allora esegue ciò che c'è a destra del && */}
@@ -54,7 +55,6 @@ function Layout({pageTitle, azioneSchermo, rightBotton, bottonTitle1, pagePath1,
                             {rightBotton && <Bottone bottonName={bottonTitle2} path={pagePath2}></Bottone>}
                         </div>
                     </div>
-                </div>
             </div>
         </>
     );
